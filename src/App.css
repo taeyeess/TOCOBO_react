@@ -1,0 +1,45 @@
+.header{
+  width: 100%;  
+  /* background-color: aqua; */
+  padding:25px;
+  box-sizing: border-box;
+  position:fixed;
+  top:0; 
+  left: 0;
+  z-index: 9999;
+}
+
+.nav{
+  width: 400px;
+  position: absolute;
+  top:48px;
+  left:70px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: azure;   */
+}
+
+.nav li a{
+  color:rgb(172, 13, 13);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.logo{
+  font-size: 45px;
+  text-align: center;  
+}
+
+.logo a{
+  color:rgb(221, 22, 22);
+}
+
+.icon{
+  position: absolute;
+  top:43px;
+  right: 70px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
